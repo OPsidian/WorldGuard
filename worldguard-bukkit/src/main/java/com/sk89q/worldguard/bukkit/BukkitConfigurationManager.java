@@ -122,6 +122,6 @@ public class BukkitConfigurationManager extends YamlConfigurationManager {
     }
 
     public boolean hasCommandBookGodMode() {
-        return hasCommandBookGodMode;
+        return true; // who had the brilliant idea to implement commands in a region protection plugin?
     }
 }
